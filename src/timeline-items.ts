@@ -3,7 +3,7 @@ import { HOURS_IN_DAY, MIDNIGHT_HOUR } from './constants'
 import { endOfHour, isToday, now, toSeconds, today } from './time'
 import { stopTimelineItemTimer } from './timeline-item-timer'
 
-export const timelineItemRefs = ref([])
+export const timelineItemRefs = ref<any>([])
 
 export const timelineItems = ref([])
 
